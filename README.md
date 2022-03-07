@@ -1,7 +1,7 @@
 # E-Commerce-Backend
 
 ## Description
-  An application that can be used to create, read, and update values for products, categories, and tags. Delete function will be added in the future.
+  An application that can be used to create, read, and update values for products, categories, and tags. Delete is only functioning for products currently.
 
 
  ## Table of Contents
@@ -16,8 +16,8 @@
 
 
   ## Walkthrough
-  https://drive.google.com/file/d/1e84o1FNkseWK_UjKPlvhMwfd4_Fj9i3H/view.
+  https://drive.google.com/file/d/10eTKghtoYrvnQrd67tgMF7S9YmXMQsy1/view.
 
   
   ## Usage
-  Use mysql to to create the database by typing "source db/schema.sql" after entering your mysql password. Then, in a seperate terminal, type "npm run seed" to seed the database, and finally "npm start" to connect to the server. In Insomnia, you will be able to make GET, POST, CREATE, and UPDATE requests. DELETE requests are currently not working. 
+  Use mysql to to create the database by typing "source db/schema.sql" after entering your mysql password. Then, in a seperate terminal, type "npm run seed" to seed the database, and finally "npm start" to connect to the server. In Insomnia, you will be able to make GET, POST, CREATE, and UPDATE requests. DELETE requests for categories and tags will be added in the future.
